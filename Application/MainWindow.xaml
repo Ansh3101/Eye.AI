@@ -1,0 +1,85 @@
+﻿<Window x:Class="EYE.AI.LandingPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EYE.AI"
+        mc:Ignorable="d"
+        Title="LandingPage" Height="500" Width="700"
+        WindowStyle="None"
+        MouseDown="Window_MouseDown"
+        Background="Transparent"
+        AllowsTransparency="True"
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen"
+        >
+
+    <Border
+        
+        CornerRadius="50"
+        Background="#F1F1F1"
+        BorderBrush="Gray"
+        BorderThickness="5">
+
+        <Grid>
+            <Image x:Name="Logo"
+                   Source="Images/eye.ai.png"
+                   Width="200"
+                   Height="100"
+                   Margin="-10,-40,0,0"
+                   />
+            
+            
+            <Image x:Name="FirstPattern"
+                   Source="Images/firstDesign.png"
+                   Width="700"
+                   Height="170"
+                   Margin="0,-320,0,0"/>
+            
+            <TextBlock x:Name="Slogan"
+                       Text="EYE.AI detects: "
+                       Foreground="Black"
+                       FontSize="45"
+                       Margin="100,115,0,0"
+                       Height="50"
+                       FontWeight="Light"
+                       FontFamily="Microsoft Sans"
+                       />
+
+            <Image x:Name="SecondPattern"
+                   Source="Images/secondDesign.png"
+                   Width="700"
+                   Height="200"
+                   Margin="0,350,0,0"
+                   />
+
+            <Label x:Name="diseaseContent"
+                   Content="Glaucoma"
+                   FontFamily="Microsoft Sans"
+                   FontSize="40"
+                   Foreground="Black"
+                   Margin="380,115,0,0"
+                   Height="50"
+                   FontWeight="Light"
+                   />
+
+            <ProgressBar Width="700" Height="10"
+                 Name="progressBar1"
+                 Margin="0,350,0,0"
+                         Foreground="#68a7de">
+                <ProgressBar.Triggers>
+                    <EventTrigger RoutedEvent="ProgressBar.Loaded">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation
+                Storyboard.TargetName="progressBar1" 
+                Storyboard.TargetProperty="Value"
+                From="0" To="100" Duration="0:0:15"  />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </ProgressBar.Triggers>
+            </ProgressBar>
+        </Grid>
+    </Border>
+</Window>
