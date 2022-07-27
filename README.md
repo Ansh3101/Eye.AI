@@ -1,5 +1,6 @@
 # Eye.AI
 ### The Code Repository For Eye.AI <br>
+<br>
 
 ## Contents
 - ### Code
@@ -17,6 +18,22 @@
   - #### [Corneal Ulcers](https://github.com/Ansh3101/Eye.AI/tree/main/APIs/Corneal%20Ulcers/)
   - #### [Blindness Detection](https://github.com/Ansh3101/Eye.AI/tree/main/APIs/Blindness/)
 
+## Code
+
+### Cataracts, Glaucoma And Uveitis
+#### [The Dataset](https://github.com/Ansh3101/Eye.AI/tree/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/Data/)
+The dataset contains high-quality, well augmented images of eyes diagnosed with cataracts, glaucoma, uveitis and a control class of healthy images.
+#### [Data Augmentation](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/DataAugmentation.ipynb)
+The code notebook that augmented images so as to increase the number of images in the dataset with augmentations.
+#### [Data Augmentation](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/Training.ipynb)
+The code notebook that was used to train the EfficientNetB4 architecture which was used after much experimentation with the ResNexT architecture. The model managed to achieve 99% accuracy on the validation dataset after hyperparameter tuning!
+<br>
+
+## Application
+<br>
+
+## APIs
+<br>
 
 <!--
 ## APIs
