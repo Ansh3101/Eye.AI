@@ -31,20 +31,20 @@ The code notebook used to train the EfficientNetV2 Model which was used after mu
 The test notebook used to generate predictions on single images. This same code was used in the API.
 #### [Model Weights](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/EyeDisease.pth)
 The weights of the model that managed to achieve 99% accuracy on the test set.
-<br>
+<br><br>
 
-### Cataracts, Glaucoma And Uveitis
-#### [The Dataset](https://github.com/Ansh3101/Eye.AI/tree/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/Data/)
-The dataset contains high-quality, well augmented images of eyes diagnosed with cataracts, glaucoma, uveitis and a control class of healthy images.
-#### [Data Augmentation](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/DataAugmentation.ipynb)
+### Diabetic Retinopathy
+#### [The Dataset](https://github.com/Ansh3101/Eye.AI/tree/main/Code/Blindness%20Detection/Data%20(Test)/)
+The dataset contains high-quality, well augmented images of corneal x-rays of the eye diagnosed with different stages of DR as well as a control class of healthy corneal x-rays.
+#### [Data Augmentation](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Blindness%20Detection/DataAugmentation.ipynb)
 The code notebook that augmented images so as to increase the number of images in the dataset with augmentations.
-#### [Training](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/Training.ipynb)
-The code notebook used to train the EfficientNetV2 Model which was used after much experimentation with the ResNexT-101 Architecture. Our model managed to achieve 99% accuracy on the validation dataset after hyperparameter tuning!
-#### [Prediction](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/Prediction.ipynb)
+#### [Training](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Blindness%20Detection/Training.ipynb)
+The code notebook used to train the original EfficientNet Model which was used after much experimentation with the InceptionNetV3 Architecture. Our model managed to achieve 94% accuracy on the validation dataset after hyperparameter tuning!
+#### [Prediction](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Blindness%20Detection/Prediction.ipynb)
 The test notebook used to generate predictions on single images. This same code was used in the API.
-#### [Model Weights](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/EyeDisease.pth)
-The weights of the model that managed to achieve 99% accuracy on the test set.
-<br>
+#### [Model Weights](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Blindness%20Detection/blindness.pth)
+The weights of the model that managed to achieve 94% accuracy on the test set.
+<br><br>
 
 ### Corneal Ulcers
 #### [The Dataset](https://github.com/Ansh3101/Eye.AI/tree/main/Code/Corneal%20Ulcers/Data/)
@@ -57,7 +57,7 @@ The code notebook used to train the EfficientNetV2 Model which was used after mu
 The test notebook used to generate predictions on single images. This same code was used in the API.
 #### [Model Weights](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Corneal%20Ulcers/cornealulcers.pth)
 The weights of the model that managed to achieve 96% accuracy on the test set.
-<br>
+<br><br><br>
 
 ## Application
 <br>
