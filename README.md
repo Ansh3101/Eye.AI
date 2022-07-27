@@ -25,8 +25,38 @@
 The dataset contains high-quality, well augmented images of eyes diagnosed with cataracts, glaucoma, uveitis and a control class of healthy images.
 #### [Data Augmentation](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/DataAugmentation.ipynb)
 The code notebook that augmented images so as to increase the number of images in the dataset with augmentations.
-#### [Data Augmentation](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/Training.ipynb)
-The code notebook that was used to train the EfficientNetB4 architecture which was used after much experimentation with the ResNexT architecture. The model managed to achieve 99% accuracy on the validation dataset after hyperparameter tuning!
+#### [Training](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/Training.ipynb)
+The code notebook used to train the EfficientNetV2 Model which was used after much experimentation with the ResNexT-101 Architecture. Our model managed to achieve 99% accuracy on the validation dataset after hyperparameter tuning!
+#### [Prediction](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/Prediction.ipynb)
+The test notebook used to generate predictions on single images. This same code was used in the API.
+#### [Model Weights](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/EyeDisease.pth)
+The weights of the model that managed to achieve 99% accuracy on the test set.
+<br>
+
+### Cataracts, Glaucoma And Uveitis
+#### [The Dataset](https://github.com/Ansh3101/Eye.AI/tree/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/Data/)
+The dataset contains high-quality, well augmented images of eyes diagnosed with cataracts, glaucoma, uveitis and a control class of healthy images.
+#### [Data Augmentation](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/DataAugmentation.ipynb)
+The code notebook that augmented images so as to increase the number of images in the dataset with augmentations.
+#### [Training](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/Training.ipynb)
+The code notebook used to train the EfficientNetV2 Model which was used after much experimentation with the ResNexT-101 Architecture. Our model managed to achieve 99% accuracy on the validation dataset after hyperparameter tuning!
+#### [Prediction](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/Prediction.ipynb)
+The test notebook used to generate predictions on single images. This same code was used in the API.
+#### [Model Weights](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/EyeDisease.pth)
+The weights of the model that managed to achieve 99% accuracy on the test set.
+<br>
+
+### Corneal Ulcers
+#### [The Dataset](https://github.com/Ansh3101/Eye.AI/tree/main/Code/Corneal%20Ulcers/Data/)
+The dataset contains high-quality, well augmented images of eyes diagnosed with point corneal ulcers, flaky corneal ulcers, uveitis and a control class of healthy images of eyes doused with flourescein powder under UV.
+#### [Data Augmentation](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Corneal%20Ulcers/DataAugmentation.ipynb)
+The code notebook that augmented images so as to increase the number of images in the dataset with augmentations.
+#### [Training](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Corneal%20Ulcers/Training.ipynb)
+The code notebook used to train the EfficientNetV2 Model which was used after much experimentation with the ResNet-180 Architecture. Our model managed to achieve 96% accuracy on the validation dataset after hyperparameter tuning!
+#### [Prediction](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Corneal%20Ulcers/Prediction.ipynb)
+The test notebook used to generate predictions on single images. This same code was used in the API.
+#### [Model Weights](https://github.com/Ansh3101/Eye.AI/blob/main/Code/Corneal%20Ulcers/cornealulcers.pth)
+The weights of the model that managed to achieve 96% accuracy on the test set.
 <br>
 
 ## Application
