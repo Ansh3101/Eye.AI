@@ -2,11 +2,23 @@
 ### The Code Repository For Eye.AI <br>
 
 ## Contents
-- #### Code
-  - [Eye Disease](https://github.com/Ansh3101/Eye.AI/tree/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis)
-  - [Corneal Ulcers](https://github.com/Ansh3101/Eye.AI/tree/main/Code/Corneal%20Ulcers)
-- ####
+- ### Code
+  - #### [Eye Disease](https://github.com/Ansh3101/Eye.AI/tree/main/Code/Cataract%2C%20Glaucoma%20%26%20Uveitis/)
+  - #### [Corneal Ulcers](https://github.com/Ansh3101/Eye.AI/tree/main/Code/Corneal%20Ulcers/)
+  - #### [Blindness Detection (Diabetic Retinopathy)](https://github.com/Ansh3101/Eye.AI/tree/main/Code/Blindness%20Detection/)
+- ### Application
+  - #### [APIs](https://github.com/Ansh3101/Eye.AI/blob/main/Application/Post.cs)
+  - #### [Landing Page](https://github.com/Ansh3101/Eye.AI/blob/main/Application/MainWindow.xaml)
+  - #### [Disease Election](https://github.com/Ansh3101/Eye.AI/blob/main/Application/SelectionPage.xaml)
+  - #### [Image Upload](https://github.com/Ansh3101/Eye.AI/blob/main/Application/PredictionPage.xaml)
+  - #### [Predictions](https://github.com/Ansh3101/Eye.AI/blob/main/Application/ShowPrediction.xaml)
+- ### APIs (Code)
+  - #### [Eye Disease](https://github.com/Ansh3101/Eye.AI/tree/main/APIs/Eye%20Disease/)
+  - #### [Corneal Ulcers](https://github.com/Ansh3101/Eye.AI/tree/main/APIs/Corneal%20Ulcers/)
+  - #### [Blindness Detection](https://github.com/Ansh3101/Eye.AI/tree/main/APIs/Blindness/)
 
+
+<!--
 ## APIs
 
 ### Public Links (Use POST Method On Postman)
@@ -16,4 +28,4 @@
 <br><br>
 
 ### [Elevator Pitch And Code Walkthrough](https://youtu.be/H3gy18s9K-M)
-
+-->
