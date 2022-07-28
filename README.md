@@ -2,8 +2,8 @@
 ### The Code Repository For Eye.AI <br>
 <br>
 
-## Application Demo & Elevator Pitch
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/H3gy18s9K-M/maxresdefault.jpg)](https://www.youtube.com/watch?v=H3gy18s9K-M)
+## Application Demo & Elevator Pitch
 
 ## APIs
 - ### [Blindness Detection (Diabetic Retinopathy) : 94% Accuracy](https://eyeai-blindness.herokuapp.com/)
