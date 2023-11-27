@@ -1,7 +1,7 @@
 # Eye.AI
 ### The Code Repository For Eye.AI <br>
 <br>
-
+<!--
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/H3gy18s9K-M/maxresdefault.jpg)](https://www.youtube.com/watch?v=H3gy18s9K-M)
 ## Application Demo & Elevator Pitch
 
@@ -80,7 +80,7 @@ The weights of the model that managed to achieve 96% accuracy on the test set.
 - ### [Corneal Ulcers (Point-Like, Flaky & Healthy) : 96% Accuracy](https://eyeai-cornealulcers.herokuapp.com/)
 <br>
 
-<!--
+
 ## APIs
 
 ### Public Links (Use POST Method On Postman)
